@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></head>
+<style>
+    body{
+        background-color: cadetblue;
+    }
+</style>
+<title>feedback form</title>
+<center><h2>sign up& login</h2></center>
+
+<body>
+    <form>
+        <center>
+    <label for = "sname"> Name</label> 
+    <ion-icon name="person-outline"></ion-icon>
+    <input name="sname" id="sname" type="text"/><br>
+    <br> <label for = "mail"> Email </label>  
+       <ion-icon name="mail-outline"></ion-icon>
+        <input name="mail" id="mail" type="text"/><br>
+       <br> <label for = "password"> Password</label> 
+        <input  id="password" type="password"/><br>
+        <br> <p>Please Check all the emotions that apply to you:</p>
+        <input type="checkbox" id="anger" name="anger" value="anger">
+        <label for="Anger">Anger</label><br>
+        <input type="checkbox" id="sad" name="sad" value="sad">
+        <label for="sad">Sad</label><br>
+        <input type="checkbox" id="happy" name="happy" value="happy">
+        <label for="happy">Happy</label><br>
+        <input type="checkbox" id="ambivalent" name="ambivalent" value="ambivalent">
+        <label for="ambivalent">Ambivalent</label><br>
+        <input type="checkbox" id="introvert" name="introvert" value="introvert">
+        <label for="introvert">Intovert</label><br>
+        <input type="checkbox" id="extrovert" name="extrovert" value="extrovert">
+        <label for="extrovert">Extovert</label><br>
+        <br> <p>How satisfied were you with our service:</p>
+       <input id="very satisfied" type="radio" value="recommend" name="service"/>
+       <label for="very satisfied">Very satisfied</label>
+       <br><input id="satisfied" type="radio" value="recommend" name="service"/>
+       <label for="satisfied">Satisfied</label><br>
+       <input id="didn't care" type="radio" value="recommend" name="service"/>
+       <label for="didn't care">didn't care</label><br>
+       <input id="dissatisfied" type="radio" value="recommend" name="service"/>
+       <label for="dissatisfied">dissatisfied</label><br>
+       <input id="very dissatisfied" type="radio" value="recommend" name="service"/>
+       <label for="very dissatisfied">very dissatisfied</label><br>
+       <br><label for="area">Further Comments </label>
+        <textarea cols="20" rows="2" name="feedback"></textarea>
+        <input type="reset"><br>
+        <br> <label for = "location"></label>What do you like most in FCC</label>
+       <select name="location" id="location"/>
+       <option  value="select location">select location</option>
+       <option  value="Hyderabad">Hyderabad</option>
+       <option  value="Bangalore">Bangalore</option>
+       <option  value="chennai">Chennai</option>
+       <option  value="pune">Pune</option>
+       <option  value="Mumbai">Mumbai</option>
+       
+
+       </select>
+        <br>
+        
+        
+        
+
+
+        <br><input type="submit"><br>
+    </center>
+</form>
+
+</body>
+</html>
